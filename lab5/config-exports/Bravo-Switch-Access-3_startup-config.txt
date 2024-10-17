@@ -1,0 +1,316 @@
+!
+version 12.2(37)SE1
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname bravo-switch-access-3
+!
+!
+enable secret 5 $1$mERr$l8SLDueP.Zv.mFrItsqPo/
+!
+!
+!
+!
+!
+!
+!
+!
+username admin privilege 15 secret 5 $1$mERr$l8SLDueP.Zv.mFrItsqPo/
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip ssh version 2
+ip domain-name forus-media.com
+!
+!
+spanning-tree mode pvst
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/1
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/2
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/3
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/4
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/5
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/6
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/7
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/8
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/9
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/10
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/11
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/12
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/13
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/14
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/15
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/16
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/17
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/18
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/19
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/20
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/21
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/22
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/23
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface FastEthernet0/24
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface GigabitEthernet0/1
+ description uplink-trunk
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+ switchport nonegotiate
+!
+interface GigabitEthernet0/2
+ description suspended
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ switchport nonegotiate
+!
+interface Vlan1
+ description default-SVI DO NOT USE
+ no ip address
+ shutdown
+!
+interface Vlan10
+ description management-SVI
+ mac-address 0001.97bd.5201
+ ip address 10.10.2.103 255.255.0.0
+!
+ip classless
+!
+ip flow-export version 9
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ exec-timeout 720 0
+!
+line aux 0
+!
+line vty 0 4
+ exec-timeout 720 0
+ login local
+ transport input ssh
+ privilege level 15
+line vty 5 15
+ exec-timeout 720 0
+ login local
+ transport input ssh
+ privilege level 15
+!
+!
+!
+!
+end
+
