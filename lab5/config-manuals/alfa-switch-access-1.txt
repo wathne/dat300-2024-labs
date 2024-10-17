@@ -52,6 +52,7 @@ alfa-switch-access-1(config-if)#exit
 alfa-switch-access-1(config)#interface range FastEthernet 0/1 - 24,  GigabitEthernet 0/1 - 2
 alfa-switch-access-1(config-if-range)#description suspended
 alfa-switch-access-1(config-if-range)#switchport access vlan 990
+alfa-switch-access-1(config-if-range)#switchport trunk encapsulation dot1q
 alfa-switch-access-1(config-if-range)#switchport trunk native vlan 991
 alfa-switch-access-1(config-if-range)#switchport trunk allowed vlan 10,21,22,23
 alfa-switch-access-1(config-if-range)#switchport mode access
