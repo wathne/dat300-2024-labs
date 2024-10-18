@@ -46,6 +46,9 @@ interface FastEthernet0/1
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/2
  description suspended
@@ -55,6 +58,9 @@ interface FastEthernet0/2
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/3
  description suspended
@@ -64,6 +70,9 @@ interface FastEthernet0/3
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/4
  description suspended
@@ -73,6 +82,9 @@ interface FastEthernet0/4
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/5
  description suspended
@@ -82,6 +94,9 @@ interface FastEthernet0/5
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/6
  description suspended
@@ -91,6 +106,9 @@ interface FastEthernet0/6
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/7
  description suspended
@@ -100,6 +118,9 @@ interface FastEthernet0/7
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/8
  description suspended
@@ -109,6 +130,9 @@ interface FastEthernet0/8
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/9
  description suspended
@@ -118,6 +142,9 @@ interface FastEthernet0/9
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/10
  description suspended
@@ -127,6 +154,9 @@ interface FastEthernet0/10
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/11
  description suspended
@@ -136,6 +166,9 @@ interface FastEthernet0/11
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/12
  description suspended
@@ -145,6 +178,9 @@ interface FastEthernet0/12
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/13
  description suspended
@@ -154,6 +190,9 @@ interface FastEthernet0/13
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/14
  description suspended
@@ -163,6 +202,9 @@ interface FastEthernet0/14
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/15
  description suspended
@@ -172,6 +214,9 @@ interface FastEthernet0/15
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/16
  description suspended
@@ -181,6 +226,9 @@ interface FastEthernet0/16
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/17
  description suspended
@@ -190,6 +238,9 @@ interface FastEthernet0/17
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/18
  description suspended
@@ -199,6 +250,9 @@ interface FastEthernet0/18
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/19
  description suspended
@@ -208,6 +262,9 @@ interface FastEthernet0/19
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/20
  description suspended
@@ -217,6 +274,9 @@ interface FastEthernet0/20
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/21
  description suspended
@@ -226,6 +286,9 @@ interface FastEthernet0/21
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/22
  description suspended
@@ -235,6 +298,9 @@ interface FastEthernet0/22
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/23
  description suspended
@@ -244,6 +310,9 @@ interface FastEthernet0/23
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface FastEthernet0/24
  description suspended
@@ -253,6 +322,9 @@ interface FastEthernet0/24
  switchport trunk encapsulation dot1q
  switchport mode access
  switchport nonegotiate
+ switchport port-security
+ switchport port-security maximum 3
+ switchport port-security violation restrict 
 !
 interface GigabitEthernet0/1
  description uplink-trunk
