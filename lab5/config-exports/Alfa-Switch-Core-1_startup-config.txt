@@ -35,6 +35,7 @@ ip domain-name forus-media.com
 !
 !
 spanning-tree mode pvst
+spanning-tree vlan 1-1005 priority 24576
 !
 !
 !
