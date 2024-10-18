@@ -14,7 +14,7 @@ enable secret 5 $1$mERr$l8SLDueP.Zv.mFrItsqPo/
 !
 !
 !
-ip cef
+no ip cef
 no ipv6 cef
 !
 !
@@ -41,6 +41,14 @@ spanning-tree mode pvst
 !
 !
 !
+interface Port-channel1
+ description downlink-trunk-etherchannel
+ switchport access vlan 990
+ switchport trunk native vlan 991
+ switchport trunk allowed vlan 10,21-23
+ switchport mode trunk
+ switchport nonegotiate
+!
 interface GigabitEthernet1/0/1
  description downlink-trunk
  switchport access vlan 990
@@ -48,6 +56,7 @@ interface GigabitEthernet1/0/1
  switchport trunk allowed vlan 10,21-23
  switchport mode trunk
  switchport nonegotiate
+ channel-group 1 mode active
 !
 interface GigabitEthernet1/0/2
  description downlink-trunk
@@ -56,14 +65,16 @@ interface GigabitEthernet1/0/2
  switchport trunk allowed vlan 10,21-23
  switchport mode trunk
  switchport nonegotiate
+ channel-group 1 mode active
 !
 interface GigabitEthernet1/0/3
- description suspended
+ description downlink-trunk
  switchport access vlan 990
  switchport trunk native vlan 991
  switchport trunk allowed vlan 10,21-23
- switchport mode access
+ switchport mode trunk
  switchport nonegotiate
+ channel-group 1 mode active
 !
 interface GigabitEthernet1/0/4
  description suspended
