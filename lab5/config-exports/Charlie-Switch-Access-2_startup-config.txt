@@ -13,6 +13,8 @@ enable secret 5 $1$mERr$l8SLDueP.Zv.mFrItsqPo/
 !
 !
 !
+ip routing
+!
 !
 !
 !
@@ -353,6 +355,11 @@ interface Vlan10
  description management-SVI
  mac-address 0060.5c22.3c01
  ip address 10.10.3.102 255.255.0.0
+!
+router ospf 56
+ router-id 10.10.3.102
+ log-adjacency-changes
+ network 10.10.0.0 0.0.255.255 area 0
 !
 ip classless
 !

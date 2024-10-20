@@ -14,7 +14,9 @@ enable secret 5 $1$mERr$l8SLDueP.Zv.mFrItsqPo/
 !
 !
 !
-ip cef
+no ip cef
+ip routing
+!
 no ipv6 cef
 !
 !
@@ -279,6 +281,12 @@ interface Vlan22
  description user-bravo-SVI
  mac-address 0004.9a21.3802
  ip address 10.22.0.1 255.255.0.0
+!
+router ospf 56
+ router-id 10.10.2.1
+ log-adjacency-changes
+ network 10.10.0.0 0.0.255.255 area 0
+ network 10.22.0.0 0.0.255.255 area 0
 !
 ip classless
 !

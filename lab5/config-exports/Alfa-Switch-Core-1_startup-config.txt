@@ -15,6 +15,8 @@ enable secret 5 $1$mERr$l8SLDueP.Zv.mFrItsqPo/
 !
 !
 no ip cef
+ip routing
+!
 no ipv6 cef
 !
 !
@@ -286,6 +288,11 @@ interface Vlan10
  description management-SVI
  mac-address 0007.ec1b.d601
  ip address 10.10.0.1 255.255.0.0
+!
+router ospf 56
+ router-id 1.1.1.1
+ log-adjacency-changes
+ network 10.10.0.0 0.0.255.255 area 0
 !
 ip classless
 !
