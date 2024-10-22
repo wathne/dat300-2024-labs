@@ -294,7 +294,7 @@ interface Vlan21
  ip address 10.21.0.1 255.255.0.0
 !
 router ospf 56
- router-id 10.10.1.1
+ router-id 255.255.255.254
  log-adjacency-changes
  network 10.10.0.0 0.0.255.255 area 0
  network 10.21.0.0 0.0.255.255 area 0
