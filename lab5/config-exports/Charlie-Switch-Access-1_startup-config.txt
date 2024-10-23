@@ -42,7 +42,7 @@ spanning-tree mode pvst
 !
 interface FastEthernet0/1
  description suspended
- switchport access vlan 990
+ switchport access vlan 10
  switchport trunk native vlan 991
  switchport trunk allowed vlan 10,21-23
  switchport trunk encapsulation dot1q

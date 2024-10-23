@@ -81,7 +81,7 @@ interface GigabitEthernet1/0/3
 !
 interface GigabitEthernet1/0/4
  description suspended
- switchport access vlan 990
+ switchport access vlan 30
  switchport trunk native vlan 991
  switchport trunk allowed vlan 10,21-23
  switchport mode access
@@ -97,7 +97,7 @@ interface GigabitEthernet1/0/5
 !
 interface GigabitEthernet1/0/6
  description suspended
- switchport access vlan 990
+ switchport access vlan 31
  switchport trunk native vlan 991
  switchport trunk allowed vlan 10,21-23
  switchport mode access
@@ -240,11 +240,11 @@ interface GigabitEthernet1/0/23
  switchport nonegotiate
 !
 interface GigabitEthernet1/0/24
- description suspended
+ description wlc-trunk
  switchport access vlan 990
- switchport trunk native vlan 991
+ switchport trunk native vlan 10
  switchport trunk allowed vlan 10,21-23
- switchport mode access
+ switchport mode trunk
  switchport nonegotiate
 !
 interface GigabitEthernet1/1/1
@@ -289,10 +289,22 @@ interface Vlan10
  mac-address 0007.ec1b.d601
  ip address 10.10.0.1 255.255.0.0
 !
+interface Vlan30
+ description server-archive
+ mac-address 0007.ec1b.d602
+ ip address 10.30.0.1 255.255.0.0
+!
+interface Vlan31
+ description server streaming
+ mac-address 0007.ec1b.d603
+ ip address 10.31.0.1 255.255.0.0
+!
 router ospf 56
  router-id 255.255.255.255
  log-adjacency-changes
  network 10.10.0.0 0.0.255.255 area 0
+ network 10.30.0.0 0.0.255.255 area 0
+ network 10.31.0.0 0.0.255.255 area 0
 !
 ip classless
 !
